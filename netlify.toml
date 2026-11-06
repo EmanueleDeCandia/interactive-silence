@@ -1,0 +1,4 @@
+[build]
+  base = "interactive-silence"
+  command = "npm install && npm run build"
+  publish = "dist"
