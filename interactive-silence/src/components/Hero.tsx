@@ -341,7 +341,7 @@ function RouteBackdrop() {
 
 export function Hero() {
   const [ref, inView] = useInView<HTMLDivElement>(0.1);
-  const title = useScramble("SILNZIO-ASSENSO.", inView, 26);
+  const title = useScramble("SILENZIO-ASSENSO.", inView, 26);
 
   return (
     <section className="relative overflow-hidden bg-espresso pt-28 sm:pt-32">
@@ -382,6 +382,10 @@ export function Hero() {
                 Obiettivo primario
               </p>
               <p className="mt-2 text-[15px] leading-relaxed text-cream/85">{EXEC_SUMMARY.obiettivo}</p>
+              <p className="mt-5 font-mono text-[10px] uppercase tracking-[0.24em] text-smoke">
+                Scopo pragmatico
+              </p>
+              <p className="mt-2 text-[15px] leading-relaxed text-cream/85">{EXEC_SUMMARY.scopo}</p>
             </div>
           </Reveal>
 

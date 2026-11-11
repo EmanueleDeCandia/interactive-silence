@@ -22,6 +22,8 @@ export const EXEC_SUMMARY = {
   ambito: "Progetto Pilota Regione Marche — Segmento OCS (Office Coffee Service).",
   obiettivo:
     "Efficientamento operativo della Supply Chain dell'ultimo miglio, riduzione del Customer Acquisition & Service Cost (CAC/CSC), transizione verso un modello logistico sostenibile e valorizzazione dell'asset reputazionale territoriale (ESG).",
+  scopo:
+    "Silenzio Assenso è una estremizzazione. Anche nella opzione più soft, il cliente deve sempre compiere una scelta: confermare l'ordine precedente.",
 };
 
 export const ASSI = [
@@ -92,9 +94,9 @@ export const FLOW_TOBE = [
       "Finestra temporale circoscritta per rettificare il mix merceologico o posticipare il rifornimento.",
   },
   {
-    label: "Default Trigger · Silenzio-Assenso",
+    label: "Default Trigger · Conferma-Variazione",
     detail:
-      "In assenza di interazione attiva, l'ordine è confermato automaticamente dal sistema.",
+      "In assenza di cambiamenti di preferenze, il cliente conferma automaticamente l'ordine precedentemente fatto nell'applicazione.",
   },
   {
     label: "ERP / WMS",
