@@ -4,7 +4,7 @@
    ———————————————————————————————————————————————— */
 
 export const TICKER_ITEMS = [
-  "Silenzio-Assenso",
+  "Conferma-Variazione",
   "Scope 3 Abatement",
   "−50% passaggi veicolari",
   "Order Consolidation",
@@ -32,7 +32,7 @@ export const ASSI = [
     num: "01",
     titolo: "Reingegnerizzazione dei Flussi d'Ordine",
     sintesi:
-      "Process automation «Silenzio-Assenso» e batching logistico «Order Consolidation»: dal contact center labour-intensive al default fulfillment omnicanale.",
+      "Process automation «Conferma-Variazione» e batching logistico «Order Consolidation»: dal contact center labour-intensive al default fulfillment omnicanale.",
   },
   {
     id: "asse-2",
@@ -209,7 +209,7 @@ export const VETTORE_B = {
 /* ———— Asse 4 · Tiering ESG ———— */
 
 export const CREDIT_RULES = {
-  adesioneAutomazione: 40, // adesione al modello Silenzio-Assenso
+  adesioneAutomazione: 40, // adesione al modello Conferma-Variazione
   perOrdineConsolidato: 15, // ogni ordine consolidato nel trimestre
 };
 

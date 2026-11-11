@@ -242,7 +242,7 @@ export function PhoneDemo() {
 
             {phase === "defaulted" && (
               <div className="pop-in">
-                <StatusChip tone="warn">Nessuna interazione → Silenzio-Assenso</StatusChip>
+                <StatusChip tone="warn">Nessuna variazione → Conferma automatica</StatusChip>
               </div>
             )}
 
@@ -274,7 +274,7 @@ export function PhoneDemo() {
       </div>
 
       <p className="mt-4 text-center font-mono text-[10px] uppercase tracking-[0.2em] text-smoke">
-        Prova i pulsanti — o lascia correre il silenzio
+        Prova i pulsanti — o attendi la conferma automatica
       </p>
     </div>
   );

@@ -256,7 +256,7 @@ export function Flows() {
               <h3 className="font-display text-2xl font-semibold leading-snug text-cream sm:text-3xl">
                 1.1 · Process Automation &amp; Frictionless Reordering
               </h3>
-              <p className="mt-1 font-display text-lg italic text-brass">Modello «Silenzio-Assenso»</p>
+              <p className="mt-1 font-display text-lg italic text-brass">Modello «Conferma-Variazione»</p>
             </Reveal>
 
             <Reveal delay={120}>

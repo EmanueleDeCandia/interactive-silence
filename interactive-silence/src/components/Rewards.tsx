@@ -329,7 +329,7 @@ export function TierBuilder() {
                   <Toggle
                     on={adesione}
                     onChange={setAdesione}
-                    label={`Adesione al modello Silenzio-Assenso · +${CREDIT_RULES.adesioneAutomazione} crediti`}
+                    label={`Adesione al modello Conferma-Variazione · +${CREDIT_RULES.adesioneAutomazione} crediti`}
                   />
                 </div>
                 <RangeInput
